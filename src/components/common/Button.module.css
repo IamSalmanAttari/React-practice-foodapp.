@@ -1,0 +1,14 @@
+button{
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    padding: .75rem 1.5rem;
+    border-radius: 3rem;
+    -webkit-transition: .4s;
+    transition: .4s;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+

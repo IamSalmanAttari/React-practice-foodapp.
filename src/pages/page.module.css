@@ -1,0 +1,122 @@
+/* *{
+  padding: 0px 100px;
+
+} */
+.homeWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 10.5rem;
+  padding: 30px 100px;
+
+}
+
+.homeWrapper h1{
+    font-size: 3rem;
+}
+.homeWrapper p{
+    font-size: 1.5rem;
+}
+
+.homeRight{
+    /* display: flex; */
+    background-color: beige;
+    border-radius: 45px;
+    padding: 20px 20px 0px 20px;
+}
+
+.servicesTextImg{
+text-align: center;
+padding-top: 10rem;
+/* padding: 0px 100px; */
+
+}
+
+.servicesCards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5rem;
+
+    /* padding-top: 3rem; */
+    /* width: 100%; */
+  padding: 2rem 100px;
+  /* margin-left: 2rem; */
+  /* background-color: aquamarine; */
+  /* max-width: 986px; */
+    
+}
+
+.servicesCards img{
+width: 49%;
+}
+
+.servicesCardsLine1{
+
+    padding-left: 10rem;
+
+
+}
+
+.servicesCardsLine2{
+
+    padding-right: 10rem;
+
+
+}
+
+.order{
+    /* padding-top: 10rem; */
+  padding: 5rem 100px;
+  /* width: 100vw; */
+}
+
+.order img{
+    width: 85vw;
+}
+
+.order h1{
+    text-align: center;
+    padding-bottom: 8rem;
+}
+
+.about{
+    text-align: center;
+    padding: 5rem 100px;
+
+}
+
+.contact{
+    background-color: #FFEFEC;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 15rem;
+    padding: 0px 100px;
+    gap: 10.5rem;
+}
+
+.contact h1{
+    font-size: 2.5rem;
+}
+
+.contact button{
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    text-align: center;
+    position: relative;
+    /* right: 5rem; */
+}
+.contactRight{
+    display: flex;
+}
+.contact input{
+    padding: 0.5rem 10rem 6px 1rem;
+    border-radius: 2rem;
+    border: none;
+    position: relative;
+    left: 5rem;
+    
+}
